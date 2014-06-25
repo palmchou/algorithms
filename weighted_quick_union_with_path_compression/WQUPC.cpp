@@ -1,3 +1,9 @@
+/*
+Author: Palm Chou
+Email: palmchou@live.com
+blog: palmchou.me
+*/
+
 #include<iostream>
 using namespace std;
 
