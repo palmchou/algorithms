@@ -9,7 +9,7 @@ public:
 	~QF();
 	void doUnion(int p, int q);
 	bool connected(int p, int q);
-	//void print();
+	void print();
 private:
 	int N;
 	int *id;
@@ -42,19 +42,19 @@ bool QF::connected(int p, int q)
 	return id[p] == id[q];
 }
 
-//void QF::print()
-//{
-//	int i, j;
-//	for (i = 0; i < N; i++)
-//	{
-//		cout << i << ' ';
-//	}
-//	cout << endl;
-//	for (j = 0; j < N; j++)
-//	{
-//		cout << id[j] << ' ';
-//	}
-//}
+void QF::print()
+{
+	int i, j;
+	for (i = 0; i < N; i++)
+	{
+		cout << i << ' ';
+	}
+	cout << endl;
+	for (j = 0; j < N; j++)
+	{
+		cout << id[j] << ' ';
+	}
+}
 
 int main()
 {
